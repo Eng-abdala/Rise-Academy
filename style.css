@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+
+.head-section{
+    background-image: url(images/BG.jpeg);
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+   
+   
+    
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    /* position: fixed; */
+    margin-bottom: 50px;
+}
+.header i{
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    font-size: 22px;
+    color: white;
+}
+ul #home{
+    color: #00b2ff;
+}
+ul li:hover{
+    color: #00b2ff;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+    height: 47px;
+    
+}
+.logo-text{
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: white;
+}
+button{
+    border: 1px solid white;
+    color: black;
+    padding: 8px 18px;
+    border-radius: 8px;
+}
+
+/* hero-section  */
+ .hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 80px;
+
+}
+
+.left-hero{
+    width: 550px;
+    color: white;
+    font-size: 25px;
+    font-style: bold;
+    padding: 20px;
+    animation-name:left;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite; */
+    animation-delay: 0s; 
+   
+}
+.left-hero p{
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+}
+.color{
+     animation-name:abdul;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s; 
+    
+}
+@keyframes abdul{
+    from{color: white;}
+    to{color: #00b2ff;}
+}
+@keyframes left{
+    from{
+        margin-left: -70%;
+        
+    }
+    to{
+        margin-left: 20%;
+        
+    }}
+@keyframes right{
+    from{
+        margin-left: 70%;
+        
+    }
+    to{
+        margin-left: 20%;
+        
+    }}
+
+
+.right-hero{
+    width: 600px;
+    animation-name:right;
+    animation-duration: 1s;
+    /* animation-iteration-count: infinite; */
+    animation-delay: 0s;
+}
+.right-hero img{
+    width: 600px;
+}
+.left-hero h5{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #00b2ff;
+}
+/* curces */
+.cources{
+    margin-top: 100px;
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+    margin: 100px 0px;
+}
+
+.images{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.images img{
+width: 300px;
+height: 200px;
+}
+/* our impact */
+.impact{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.left-imp{
+    width: 500px;
+}
+.left-imp img{
+    width: 500px;
+    height: 390px;
+}
+
+.right-imp{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.box{
+    width: 250px;
+    height: 150px;
+    text-align: center;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.box i{
+    font-size: 50px;
+    color: #00b2ff;
+}
+.box h1{
+    font-size: 50px;
+}
+.title p{
+    font-size: 15px;
+}
+
+/* Benefit */
+.benefit{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.benefit img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+/* Alumni */
+.sub-footer{
+    background-color: rgb(218, 217, 215);
+    height: 600px;
+}
+.alumni{
+    display: flex;
+    justify-content: center;
+    gap: 50px
+    ;
+}
+
+.inner-box{
+    width: 350px;
+    /* height: 400px; */
+    background-color: rgb(245, 234, 213);
+    padding: 15px;
+    line-height: 30px;
+}
+
+.person{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.person img{
+    width: 30px;
+}
+.abdalla{
+    font-size: 10px;
+}
+.abdalla p{
+    color: gray;
+}
+
+/* footer */
+.footer-color{
+    background-color: rgb(22, 22, 131);
+}
+.footer{
+   
+    /* height: 500px; */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.footer ol{
+    list-style-type: none;
+    font-size: 10px;
+    padding: 40px 0px;
+}
+.rise{
+    width: 400px;
+    font-size: 15px;
+}
+.rise .p{
+    padding: 20px 0px;
+}
+.icons i{
+    font-size: 30px;
+    padding-right: 10px;
+}
+ol li{
+    font-size: 20px;
+    line-height: 50px;
+}
+.copyright{
+    border-top: 1px solid white;
+    margin: 0px 100px;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+}
+
+/* flexbox */
+@media screen and (max-width:600px) {
+    .header ul,button{
+        display: none;
+    }
+    .header i{
+        display: inline;
+    }
+    .header {
+        padding: 10px 30px;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .left-hero{
+    width: 350px;
+    font-size: 15px;
+    }
+    .left-hero p{
+        font-size: 11px;
+    }
+    h5{
+        text-align: center;
+        padding-top: 8px;
+    }
+    .right-hero{
+        width: 400px;
+    }
+    .right-hero img{
+        width: 400px;
+    }
+
+    .images{
+        flex-direction: column;
+        align-items: center;
+    }
+    .images img{
+        width: 360px;
+    }
+
+    .impact{
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-imp{
+        width: 400px;
+        align-items: center;
+    }
+    .left-imp img{
+        width: 400px;
+    }
+    .boxes{
+        align-items: center;
+    }
+    .right-imp {
+        gap: 12px;
+    }
+    .right-imp .box{
+        width: 150px;
+        height: 100px;
+    }
+    .right-imp .box i{
+        font-size: 20px;
+    }
+    .right-imp .box h1{
+        font-size: 20px;
+    }
+    .right-imp .box h4{
+        font-size: 12px;
+    }
+
+    #title{
+        font-size: 10px;
+    }
+    #title p{
+        font-size: 10px;
+        padding-top: 10px;
+        margin: 0px 20px   ;
+    }
+    .benefit{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .benefit img{
+        width: 380px;
+    }
+    
+    #title2{
+        padding-top: 40px;
+        font-size: 12px;
+        margin-bottom: 30px;
+        
+    }
+
+    .sub-footer{
+        height: 800px;
+    }
+    .alumni{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .inner-box p{
+        font-size: 12px;
+    }
+    .inner-box{
+        width: 320px;
+    }
+
+    .footer{
+        flex-direction: column;
+        /* align-items: center; */
+        padding: 0;
+        gap: 30px;
+    }
+    .rise {
+        width: 300px;
+        font-size: 12px;
+        padding-top: 40px;
+    }
+    .rise p{
+        font-size: 12px;
+    }
+   .footer ol{
+    padding: 0;
+   
+   }
+    ol li{
+        font-size: 15px;
+        line-height: 40px;
+    }
+    #ol{
+        margin-right: 100px;
+    }
+    .copyright{
+        margin: 0;
+        text-align: center;
+    }
+    .copyright p{
+        font-size: 10px;
+    }
+
+
+}
